@@ -1,0 +1,31 @@
+.login {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)) url("https://wallpaperaccess.com/full/2314983.jpg");
+    background-size: cover;
+
+}
+
+.login_Title {
+    font-size: 51px;
+}
+
+.login_Form {
+    margin-top: 21px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login_Form label {
+    margin: 10px 0;
+}
+
+.login_Form__Icon {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #444;
+    cursor: pointer;
+}
