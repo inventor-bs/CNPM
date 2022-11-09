@@ -11,6 +11,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Register from "./pages/register/Register";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
         <Route path="/settings" element={<Settings />} />
         <Route path="/write" element={<Write />} />
         <Route path="/post/:postId" element={<Single />} />

@@ -1,10 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './post.css';
 
 const Post = () => {
     return (
         <div className='post'>
-            <img className='post__Img' src="https://www.patterns.dev/img/reactjs/react-logo@3x.svg" alt="" />
+            <Link className="link" to="/post/:postId"><img className='post__Img' src="https://www.patterns.dev/img/reactjs/react-logo@3x.svg" alt="" /></Link>
             <div className="post__Infor">
                 <div className="post__Infor--Cats">
                     <span className="post__Infor--Cat">
@@ -14,10 +15,11 @@ const Post = () => {
                         Language Programing
                     </span>
                 </div>
-
-                <span className="post__Infor--Title">
-                    Lorem ipsum dolor sit amet.
-                </span>
+                <Link className="link" to="/post/:postId">
+                    <span className="post__Infor--Title">
+                        Lorem ipsum dolor sit amet.
+                    </span>
+                </Link>
 
                 <hr />
 
