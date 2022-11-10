@@ -7,7 +7,7 @@ export const getPosts = async () => {
 
 
 
-export const addPost = async () => {
+export const addPost = async (post) => {
     var url = 'http://localhost:3006/api/posts';
-    return await axios.get(url);
+    return await axios.post(url);
 }

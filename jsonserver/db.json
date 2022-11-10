@@ -71,41 +71,6 @@
       "user_name": "NXD"
     },
     {
-      "comment_id": 7,
-      "content": "Test post comment",
-      "last_updated": "11 minutes ago",
-      "like_amount": 1,
-      "parent_id": 0,
-      "post_id": 1,
-      "user_id": 3,
-      "user_name": "NXD",
-      "id": 8
-    },
-    {
-      "comment_id": 7,
-      "content": "Test post comment",
-      "last_updated": "11 minutes ago",
-      "like_amount": 1,
-      "parent_id": 0,
-      "post_id": 1,
-      "user_id": 3,
-      "user_name": "NXD",
-      "id": 9
-    },
-    {
-      "comment_id": 7,
-      "content": "Test post comment",
-      "last_updated": "11 minutes ago",
-      "like_amount": 1,
-      "parent_id": 0,
-      "post_id": 1,
-      "user_id": 2,
-      "user_name": "NXD",
-      "createdAt": 1667974280155,
-      "updateAt": 1667974280156,
-      "id": 10
-    },
-    {
       "comment_id": 9,
       "content": "Test post comment",
       "last_updated": "11 minutes ago",
@@ -143,6 +108,19 @@
       "createdAt": 1667977838303,
       "updateAt": 1667977838304,
       "id": 13
+    },
+    {
+      "comment_id": 18,
+      "content": "Test post comment",
+      "last_updated": "11 minutes ago",
+      "like_amount": 1,
+      "parent_id": 0,
+      "post_id": 1,
+      "user_id": 2,
+      "user_name": "NXD",
+      "createdAt": 1668062132712,
+      "updateAt": 1668062132713,
+      "id": 14
     }
   ],
   "categories": [
